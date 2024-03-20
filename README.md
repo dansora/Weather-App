@@ -29,6 +29,9 @@ When a user views future weather conditions for that city they are presented wit
 - The humidity
 When a user clicks on a city in the search history they are again presented with current and future conditions for that city.
 
+## Screenshot
+![Screenshot of the app](/assets/imgs/Screenshot Weather App.png)
+
 ## License
 This has a MIT License.
 
