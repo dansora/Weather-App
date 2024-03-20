@@ -89,7 +89,7 @@ const getCityCoordinates = () => {
 
     if(!cityName) return; // return if cityName is empty
 
-    const GEOCODING_API_URL = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}=1&appid={API_KEY}`;
+    const GEOCODING_API_URL = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}=1&appid={API_KEY}`;
 
     // get entered city coordinates (name, latitude, longitude) from the API response
     fetch(GEOCODING_API_URL).then(res => res.json()).then(data => {
