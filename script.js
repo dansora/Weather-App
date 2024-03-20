@@ -23,7 +23,7 @@ const searchButton = document.querySelector(".search-button");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const weatherCardsSection = document.querySelector(".weather-cards");
 
-const API_KEY = "da66cff9a30a29c9c500f337840e99f6"; // API key for Open Weather Map API
+const API_KEY = "54ebbc38a65cf66330acb405408d7fa7"; // API key for Open Weather Map API
 
 const createWeatherCard = (cityName, weatherItem, index) => {
     if(index === 0) { // HTML for the today card
